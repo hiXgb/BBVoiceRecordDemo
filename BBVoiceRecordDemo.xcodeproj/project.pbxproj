@@ -1,0 +1,702 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		583669571DFBB9DA001BD59D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 583669561DFBB9DA001BD59D /* main.m */; };
+		5836695A1DFBB9DA001BD59D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 583669591DFBB9DA001BD59D /* AppDelegate.m */; };
+		5836695D1DFBB9DA001BD59D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5836695C1DFBB9DA001BD59D /* ViewController.m */; };
+		583669601DFBB9DA001BD59D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5836695E1DFBB9DA001BD59D /* Main.storyboard */; };
+		583669621DFBB9DA001BD59D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 583669611DFBB9DA001BD59D /* Assets.xcassets */; };
+		583669651DFBB9DA001BD59D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 583669631DFBB9DA001BD59D /* LaunchScreen.storyboard */; };
+		583669701DFBB9DA001BD59D /* BBVoiceRecordDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5836696F1DFBB9DA001BD59D /* BBVoiceRecordDemoTests.m */; };
+		5836697B1DFBB9DA001BD59D /* BBVoiceRecordDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5836697A1DFBB9DA001BD59D /* BBVoiceRecordDemoUITests.m */; };
+		5836698C1DFBBAA4001BD59D /* BBVoiceRecordToastContentView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5836698B1DFBBAA4001BD59D /* BBVoiceRecordToastContentView.m */; };
+		5836698F1DFBBB04001BD59D /* BBVoiceRecordPowerAnimationView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5836698E1DFBBB04001BD59D /* BBVoiceRecordPowerAnimationView.m */; };
+		583669951DFBBF0B001BD59D /* BBVoiceRecordView.m in Sources */ = {isa = PBXBuildFile; fileRef = 583669941DFBBF0B001BD59D /* BBVoiceRecordView.m */; };
+		583669981DFBBFD3001BD59D /* UIColor+BBVoiceRecord.m in Sources */ = {isa = PBXBuildFile; fileRef = 583669971DFBBFD3001BD59D /* UIColor+BBVoiceRecord.m */; };
+		583669A61DFBC034001BD59D /* ic_record_ripple@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5836699C1DFBC034001BD59D /* ic_record_ripple@2x.png */; };
+		583669A71DFBC034001BD59D /* ic_record_ripple@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5836699D1DFBC034001BD59D /* ic_record_ripple@3x.png */; };
+		583669A81DFBC034001BD59D /* ic_record_too_short@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5836699E1DFBC034001BD59D /* ic_record_too_short@2x.png */; };
+		583669A91DFBC034001BD59D /* ic_record_too_short@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5836699F1DFBC034001BD59D /* ic_record_too_short@3x.png */; };
+		583669AA1DFBC034001BD59D /* ic_record@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 583669A01DFBC034001BD59D /* ic_record@2x.png */; };
+		583669AB1DFBC034001BD59D /* ic_record@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 583669A11DFBC034001BD59D /* ic_record@3x.png */; };
+		583669AC1DFBC034001BD59D /* ic_release_to_cancel@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 583669A21DFBC034001BD59D /* ic_release_to_cancel@2x.png */; };
+		583669AD1DFBC034001BD59D /* ic_release_to_cancel@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 583669A31DFBC034001BD59D /* ic_release_to_cancel@3x.png */; };
+		583669B01DFBC168001BD59D /* BBVoiceRecordController.m in Sources */ = {isa = PBXBuildFile; fileRef = 583669AF1DFBC168001BD59D /* BBVoiceRecordController.m */; };
+		583669B31DFBC790001BD59D /* UIImage+BBVoiceRecord.m in Sources */ = {isa = PBXBuildFile; fileRef = 583669B21DFBC790001BD59D /* UIImage+BBVoiceRecord.m */; };
+		583669B61DFBD170001BD59D /* BBHoldToSpeakButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 583669B51DFBD170001BD59D /* BBHoldToSpeakButton.m */; };
+		F9F32AFE8997BDC0DCA7F8FB /* libPods-BBVoiceRecordDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E40DF48F0F072F4E9D8ED869 /* libPods-BBVoiceRecordDemo.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5836696C1DFBB9DA001BD59D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5836694A1DFBB9DA001BD59D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 583669511DFBB9DA001BD59D;
+			remoteInfo = BBVoiceRecordDemo;
+		};
+		583669771DFBB9DA001BD59D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5836694A1DFBB9DA001BD59D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 583669511DFBB9DA001BD59D;
+			remoteInfo = BBVoiceRecordDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		583669521DFBB9DA001BD59D /* BBVoiceRecordDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BBVoiceRecordDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		583669561DFBB9DA001BD59D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		583669581DFBB9DA001BD59D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		583669591DFBB9DA001BD59D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		5836695B1DFBB9DA001BD59D /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		5836695C1DFBB9DA001BD59D /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		5836695F1DFBB9DA001BD59D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		583669611DFBB9DA001BD59D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		583669641DFBB9DA001BD59D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		583669661DFBB9DA001BD59D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5836696B1DFBB9DA001BD59D /* BBVoiceRecordDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BBVoiceRecordDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5836696F1DFBB9DA001BD59D /* BBVoiceRecordDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BBVoiceRecordDemoTests.m; sourceTree = "<group>"; };
+		583669711DFBB9DA001BD59D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		583669761DFBB9DA001BD59D /* BBVoiceRecordDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BBVoiceRecordDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5836697A1DFBB9DA001BD59D /* BBVoiceRecordDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BBVoiceRecordDemoUITests.m; sourceTree = "<group>"; };
+		5836697C1DFBB9DA001BD59D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		583669891DFBBA68001BD59D /* BBVoiceRecordHeaderDefine.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = BBVoiceRecordHeaderDefine.h; path = BBVoiceRecord/BBVoiceRecordHeaderDefine.h; sourceTree = "<group>"; };
+		5836698A1DFBBAA4001BD59D /* BBVoiceRecordToastContentView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BBVoiceRecordToastContentView.h; path = BBVoiceRecord/BBVoiceRecordToastContentView.h; sourceTree = "<group>"; };
+		5836698B1DFBBAA4001BD59D /* BBVoiceRecordToastContentView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BBVoiceRecordToastContentView.m; path = BBVoiceRecord/BBVoiceRecordToastContentView.m; sourceTree = "<group>"; };
+		5836698D1DFBBB04001BD59D /* BBVoiceRecordPowerAnimationView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BBVoiceRecordPowerAnimationView.h; path = BBVoiceRecord/BBVoiceRecordPowerAnimationView.h; sourceTree = "<group>"; };
+		5836698E1DFBBB04001BD59D /* BBVoiceRecordPowerAnimationView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BBVoiceRecordPowerAnimationView.m; path = BBVoiceRecord/BBVoiceRecordPowerAnimationView.m; sourceTree = "<group>"; };
+		583669931DFBBF0B001BD59D /* BBVoiceRecordView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BBVoiceRecordView.h; path = BBVoiceRecord/BBVoiceRecordView.h; sourceTree = "<group>"; };
+		583669941DFBBF0B001BD59D /* BBVoiceRecordView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BBVoiceRecordView.m; path = BBVoiceRecord/BBVoiceRecordView.m; sourceTree = "<group>"; };
+		583669961DFBBFD3001BD59D /* UIColor+BBVoiceRecord.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIColor+BBVoiceRecord.h"; path = "BBVoiceRecord/UIColor+BBVoiceRecord.h"; sourceTree = "<group>"; };
+		583669971DFBBFD3001BD59D /* UIColor+BBVoiceRecord.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIColor+BBVoiceRecord.m"; path = "BBVoiceRecord/UIColor+BBVoiceRecord.m"; sourceTree = "<group>"; };
+		5836699C1DFBC034001BD59D /* ic_record_ripple@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "ic_record_ripple@2x.png"; path = "BBVoiceRecord/resources/ic_record_ripple@2x.png"; sourceTree = "<group>"; };
+		5836699D1DFBC034001BD59D /* ic_record_ripple@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "ic_record_ripple@3x.png"; path = "BBVoiceRecord/resources/ic_record_ripple@3x.png"; sourceTree = "<group>"; };
+		5836699E1DFBC034001BD59D /* ic_record_too_short@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "ic_record_too_short@2x.png"; path = "BBVoiceRecord/resources/ic_record_too_short@2x.png"; sourceTree = "<group>"; };
+		5836699F1DFBC034001BD59D /* ic_record_too_short@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "ic_record_too_short@3x.png"; path = "BBVoiceRecord/resources/ic_record_too_short@3x.png"; sourceTree = "<group>"; };
+		583669A01DFBC034001BD59D /* ic_record@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "ic_record@2x.png"; path = "BBVoiceRecord/resources/ic_record@2x.png"; sourceTree = "<group>"; };
+		583669A11DFBC034001BD59D /* ic_record@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "ic_record@3x.png"; path = "BBVoiceRecord/resources/ic_record@3x.png"; sourceTree = "<group>"; };
+		583669A21DFBC034001BD59D /* ic_release_to_cancel@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "ic_release_to_cancel@2x.png"; path = "BBVoiceRecord/resources/ic_release_to_cancel@2x.png"; sourceTree = "<group>"; };
+		583669A31DFBC034001BD59D /* ic_release_to_cancel@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "ic_release_to_cancel@3x.png"; path = "BBVoiceRecord/resources/ic_release_to_cancel@3x.png"; sourceTree = "<group>"; };
+		583669AE1DFBC168001BD59D /* BBVoiceRecordController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BBVoiceRecordController.h; path = BBVoiceRecord/BBVoiceRecordController.h; sourceTree = "<group>"; };
+		583669AF1DFBC168001BD59D /* BBVoiceRecordController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BBVoiceRecordController.m; path = BBVoiceRecord/BBVoiceRecordController.m; sourceTree = "<group>"; };
+		583669B11DFBC790001BD59D /* UIImage+BBVoiceRecord.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIImage+BBVoiceRecord.h"; path = "BBVoiceRecord/UIImage+BBVoiceRecord.h"; sourceTree = "<group>"; };
+		583669B21DFBC790001BD59D /* UIImage+BBVoiceRecord.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIImage+BBVoiceRecord.m"; path = "BBVoiceRecord/UIImage+BBVoiceRecord.m"; sourceTree = "<group>"; };
+		583669B41DFBD170001BD59D /* BBHoldToSpeakButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BBHoldToSpeakButton.h; path = BBVoiceRecord/BBHoldToSpeakButton.h; sourceTree = "<group>"; };
+		583669B51DFBD170001BD59D /* BBHoldToSpeakButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BBHoldToSpeakButton.m; path = BBVoiceRecord/BBHoldToSpeakButton.m; sourceTree = "<group>"; };
+		76A6724F466A140E8ABC2BF5 /* Pods-BBVoiceRecordDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BBVoiceRecordDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BBVoiceRecordDemo/Pods-BBVoiceRecordDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		8498F0AC1776747B15C3C68D /* Pods-BBVoiceRecordDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BBVoiceRecordDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-BBVoiceRecordDemo/Pods-BBVoiceRecordDemo.release.xcconfig"; sourceTree = "<group>"; };
+		E40DF48F0F072F4E9D8ED869 /* libPods-BBVoiceRecordDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-BBVoiceRecordDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5836694F1DFBB9DA001BD59D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F9F32AFE8997BDC0DCA7F8FB /* libPods-BBVoiceRecordDemo.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		583669681DFBB9DA001BD59D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		583669731DFBB9DA001BD59D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		583669491DFBB9DA001BD59D = {
+			isa = PBXGroup;
+			children = (
+				583669541DFBB9DA001BD59D /* BBVoiceRecordDemo */,
+				5836696E1DFBB9DA001BD59D /* BBVoiceRecordDemoTests */,
+				583669791DFBB9DA001BD59D /* BBVoiceRecordDemoUITests */,
+				583669531DFBB9DA001BD59D /* Products */,
+				94D35894D6859235D99A219C /* Pods */,
+				7BD5DBED4518F60EEBF0A552 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		583669531DFBB9DA001BD59D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				583669521DFBB9DA001BD59D /* BBVoiceRecordDemo.app */,
+				5836696B1DFBB9DA001BD59D /* BBVoiceRecordDemoTests.xctest */,
+				583669761DFBB9DA001BD59D /* BBVoiceRecordDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		583669541DFBB9DA001BD59D /* BBVoiceRecordDemo */ = {
+			isa = PBXGroup;
+			children = (
+				583669881DFBBA42001BD59D /* BBVoiceRecord */,
+				583669581DFBB9DA001BD59D /* AppDelegate.h */,
+				583669591DFBB9DA001BD59D /* AppDelegate.m */,
+				5836695B1DFBB9DA001BD59D /* ViewController.h */,
+				5836695C1DFBB9DA001BD59D /* ViewController.m */,
+				5836695E1DFBB9DA001BD59D /* Main.storyboard */,
+				583669611DFBB9DA001BD59D /* Assets.xcassets */,
+				583669631DFBB9DA001BD59D /* LaunchScreen.storyboard */,
+				583669661DFBB9DA001BD59D /* Info.plist */,
+				583669551DFBB9DA001BD59D /* Supporting Files */,
+			);
+			path = BBVoiceRecordDemo;
+			sourceTree = "<group>";
+		};
+		583669551DFBB9DA001BD59D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				583669561DFBB9DA001BD59D /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		5836696E1DFBB9DA001BD59D /* BBVoiceRecordDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				5836696F1DFBB9DA001BD59D /* BBVoiceRecordDemoTests.m */,
+				583669711DFBB9DA001BD59D /* Info.plist */,
+			);
+			path = BBVoiceRecordDemoTests;
+			sourceTree = "<group>";
+		};
+		583669791DFBB9DA001BD59D /* BBVoiceRecordDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				5836697A1DFBB9DA001BD59D /* BBVoiceRecordDemoUITests.m */,
+				5836697C1DFBB9DA001BD59D /* Info.plist */,
+			);
+			path = BBVoiceRecordDemoUITests;
+			sourceTree = "<group>";
+		};
+		583669881DFBBA42001BD59D /* BBVoiceRecord */ = {
+			isa = PBXGroup;
+			children = (
+				583669991DFBBFEF001BD59D /* resources */,
+				583669891DFBBA68001BD59D /* BBVoiceRecordHeaderDefine.h */,
+				5836698A1DFBBAA4001BD59D /* BBVoiceRecordToastContentView.h */,
+				5836698B1DFBBAA4001BD59D /* BBVoiceRecordToastContentView.m */,
+				5836698D1DFBBB04001BD59D /* BBVoiceRecordPowerAnimationView.h */,
+				5836698E1DFBBB04001BD59D /* BBVoiceRecordPowerAnimationView.m */,
+				583669931DFBBF0B001BD59D /* BBVoiceRecordView.h */,
+				583669941DFBBF0B001BD59D /* BBVoiceRecordView.m */,
+				583669961DFBBFD3001BD59D /* UIColor+BBVoiceRecord.h */,
+				583669971DFBBFD3001BD59D /* UIColor+BBVoiceRecord.m */,
+				583669AE1DFBC168001BD59D /* BBVoiceRecordController.h */,
+				583669AF1DFBC168001BD59D /* BBVoiceRecordController.m */,
+				583669B11DFBC790001BD59D /* UIImage+BBVoiceRecord.h */,
+				583669B21DFBC790001BD59D /* UIImage+BBVoiceRecord.m */,
+				583669B41DFBD170001BD59D /* BBHoldToSpeakButton.h */,
+				583669B51DFBD170001BD59D /* BBHoldToSpeakButton.m */,
+			);
+			name = BBVoiceRecord;
+			sourceTree = "<group>";
+		};
+		583669991DFBBFEF001BD59D /* resources */ = {
+			isa = PBXGroup;
+			children = (
+				5836699C1DFBC034001BD59D /* ic_record_ripple@2x.png */,
+				5836699D1DFBC034001BD59D /* ic_record_ripple@3x.png */,
+				5836699E1DFBC034001BD59D /* ic_record_too_short@2x.png */,
+				5836699F1DFBC034001BD59D /* ic_record_too_short@3x.png */,
+				583669A01DFBC034001BD59D /* ic_record@2x.png */,
+				583669A11DFBC034001BD59D /* ic_record@3x.png */,
+				583669A21DFBC034001BD59D /* ic_release_to_cancel@2x.png */,
+				583669A31DFBC034001BD59D /* ic_release_to_cancel@3x.png */,
+			);
+			name = resources;
+			sourceTree = "<group>";
+		};
+		7BD5DBED4518F60EEBF0A552 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E40DF48F0F072F4E9D8ED869 /* libPods-BBVoiceRecordDemo.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		94D35894D6859235D99A219C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				76A6724F466A140E8ABC2BF5 /* Pods-BBVoiceRecordDemo.debug.xcconfig */,
+				8498F0AC1776747B15C3C68D /* Pods-BBVoiceRecordDemo.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		583669511DFBB9DA001BD59D /* BBVoiceRecordDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5836697F1DFBB9DA001BD59D /* Build configuration list for PBXNativeTarget "BBVoiceRecordDemo" */;
+			buildPhases = (
+				A4D0517FA6CD50476CD44779 /* [CP] Check Pods Manifest.lock */,
+				5836694E1DFBB9DA001BD59D /* Sources */,
+				5836694F1DFBB9DA001BD59D /* Frameworks */,
+				583669501DFBB9DA001BD59D /* Resources */,
+				25BA5D6614861F8D727071D7 /* [CP] Embed Pods Frameworks */,
+				BD8C4BA21D9C6C0C9A6E4A85 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BBVoiceRecordDemo;
+			productName = BBVoiceRecordDemo;
+			productReference = 583669521DFBB9DA001BD59D /* BBVoiceRecordDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5836696A1DFBB9DA001BD59D /* BBVoiceRecordDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 583669821DFBB9DA001BD59D /* Build configuration list for PBXNativeTarget "BBVoiceRecordDemoTests" */;
+			buildPhases = (
+				583669671DFBB9DA001BD59D /* Sources */,
+				583669681DFBB9DA001BD59D /* Frameworks */,
+				583669691DFBB9DA001BD59D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5836696D1DFBB9DA001BD59D /* PBXTargetDependency */,
+			);
+			name = BBVoiceRecordDemoTests;
+			productName = BBVoiceRecordDemoTests;
+			productReference = 5836696B1DFBB9DA001BD59D /* BBVoiceRecordDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		583669751DFBB9DA001BD59D /* BBVoiceRecordDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 583669851DFBB9DA001BD59D /* Build configuration list for PBXNativeTarget "BBVoiceRecordDemoUITests" */;
+			buildPhases = (
+				583669721DFBB9DA001BD59D /* Sources */,
+				583669731DFBB9DA001BD59D /* Frameworks */,
+				583669741DFBB9DA001BD59D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				583669781DFBB9DA001BD59D /* PBXTargetDependency */,
+			);
+			name = BBVoiceRecordDemoUITests;
+			productName = BBVoiceRecordDemoUITests;
+			productReference = 583669761DFBB9DA001BD59D /* BBVoiceRecordDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5836694A1DFBB9DA001BD59D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0810;
+				TargetAttributes = {
+					583669511DFBB9DA001BD59D = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = 7CYY7N76BS;
+						ProvisioningStyle = Automatic;
+					};
+					5836696A1DFBB9DA001BD59D = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 583669511DFBB9DA001BD59D;
+					};
+					583669751DFBB9DA001BD59D = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 583669511DFBB9DA001BD59D;
+					};
+				};
+			};
+			buildConfigurationList = 5836694D1DFBB9DA001BD59D /* Build configuration list for PBXProject "BBVoiceRecordDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 583669491DFBB9DA001BD59D;
+			productRefGroup = 583669531DFBB9DA001BD59D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				583669511DFBB9DA001BD59D /* BBVoiceRecordDemo */,
+				5836696A1DFBB9DA001BD59D /* BBVoiceRecordDemoTests */,
+				583669751DFBB9DA001BD59D /* BBVoiceRecordDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		583669501DFBB9DA001BD59D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				583669651DFBB9DA001BD59D /* LaunchScreen.storyboard in Resources */,
+				583669A81DFBC034001BD59D /* ic_record_too_short@2x.png in Resources */,
+				583669AD1DFBC034001BD59D /* ic_release_to_cancel@3x.png in Resources */,
+				583669AB1DFBC034001BD59D /* ic_record@3x.png in Resources */,
+				583669A71DFBC034001BD59D /* ic_record_ripple@3x.png in Resources */,
+				583669621DFBB9DA001BD59D /* Assets.xcassets in Resources */,
+				583669601DFBB9DA001BD59D /* Main.storyboard in Resources */,
+				583669A91DFBC034001BD59D /* ic_record_too_short@3x.png in Resources */,
+				583669A61DFBC034001BD59D /* ic_record_ripple@2x.png in Resources */,
+				583669AA1DFBC034001BD59D /* ic_record@2x.png in Resources */,
+				583669AC1DFBC034001BD59D /* ic_release_to_cancel@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		583669691DFBB9DA001BD59D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		583669741DFBB9DA001BD59D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		25BA5D6614861F8D727071D7 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BBVoiceRecordDemo/Pods-BBVoiceRecordDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A4D0517FA6CD50476CD44779 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		BD8C4BA21D9C6C0C9A6E4A85 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BBVoiceRecordDemo/Pods-BBVoiceRecordDemo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5836694E1DFBB9DA001BD59D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5836698F1DFBBB04001BD59D /* BBVoiceRecordPowerAnimationView.m in Sources */,
+				583669B01DFBC168001BD59D /* BBVoiceRecordController.m in Sources */,
+				583669B31DFBC790001BD59D /* UIImage+BBVoiceRecord.m in Sources */,
+				5836698C1DFBBAA4001BD59D /* BBVoiceRecordToastContentView.m in Sources */,
+				583669951DFBBF0B001BD59D /* BBVoiceRecordView.m in Sources */,
+				5836695D1DFBB9DA001BD59D /* ViewController.m in Sources */,
+				583669B61DFBD170001BD59D /* BBHoldToSpeakButton.m in Sources */,
+				583669981DFBBFD3001BD59D /* UIColor+BBVoiceRecord.m in Sources */,
+				5836695A1DFBB9DA001BD59D /* AppDelegate.m in Sources */,
+				583669571DFBB9DA001BD59D /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		583669671DFBB9DA001BD59D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				583669701DFBB9DA001BD59D /* BBVoiceRecordDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		583669721DFBB9DA001BD59D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5836697B1DFBB9DA001BD59D /* BBVoiceRecordDemoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5836696D1DFBB9DA001BD59D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 583669511DFBB9DA001BD59D /* BBVoiceRecordDemo */;
+			targetProxy = 5836696C1DFBB9DA001BD59D /* PBXContainerItemProxy */;
+		};
+		583669781DFBB9DA001BD59D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 583669511DFBB9DA001BD59D /* BBVoiceRecordDemo */;
+			targetProxy = 583669771DFBB9DA001BD59D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		5836695E1DFBB9DA001BD59D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5836695F1DFBB9DA001BD59D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		583669631DFBB9DA001BD59D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				583669641DFBB9DA001BD59D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5836697D1DFBB9DA001BD59D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		5836697E1DFBB9DA001BD59D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		583669801DFBB9DA001BD59D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 76A6724F466A140E8ABC2BF5 /* Pods-BBVoiceRecordDemo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 7CYY7N76BS;
+				INFOPLIST_FILE = BBVoiceRecordDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.-xieguobi.BBVoiceRecordDemo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		583669811DFBB9DA001BD59D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8498F0AC1776747B15C3C68D /* Pods-BBVoiceRecordDemo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 7CYY7N76BS;
+				INFOPLIST_FILE = BBVoiceRecordDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.-xieguobi.BBVoiceRecordDemo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		583669831DFBB9DA001BD59D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = BBVoiceRecordDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.-xieguobi.BBVoiceRecordDemoTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BBVoiceRecordDemo.app/BBVoiceRecordDemo";
+			};
+			name = Debug;
+		};
+		583669841DFBB9DA001BD59D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = BBVoiceRecordDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.-xieguobi.BBVoiceRecordDemoTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BBVoiceRecordDemo.app/BBVoiceRecordDemo";
+			};
+			name = Release;
+		};
+		583669861DFBB9DA001BD59D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = BBVoiceRecordDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.-xieguobi.BBVoiceRecordDemoUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = BBVoiceRecordDemo;
+			};
+			name = Debug;
+		};
+		583669871DFBB9DA001BD59D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = BBVoiceRecordDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.-xieguobi.BBVoiceRecordDemoUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = BBVoiceRecordDemo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5836694D1DFBB9DA001BD59D /* Build configuration list for PBXProject "BBVoiceRecordDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5836697D1DFBB9DA001BD59D /* Debug */,
+				5836697E1DFBB9DA001BD59D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5836697F1DFBB9DA001BD59D /* Build configuration list for PBXNativeTarget "BBVoiceRecordDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				583669801DFBB9DA001BD59D /* Debug */,
+				583669811DFBB9DA001BD59D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		583669821DFBB9DA001BD59D /* Build configuration list for PBXNativeTarget "BBVoiceRecordDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				583669831DFBB9DA001BD59D /* Debug */,
+				583669841DFBB9DA001BD59D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		583669851DFBB9DA001BD59D /* Build configuration list for PBXNativeTarget "BBVoiceRecordDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				583669861DFBB9DA001BD59D /* Debug */,
+				583669871DFBB9DA001BD59D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5836694A1DFBB9DA001BD59D /* Project object */;
+}
